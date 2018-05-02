@@ -55,15 +55,15 @@ Además, en la raíz del repositorio está el enunciado, un .json con los result
 ###### Frontend
 La carpeta "public" posee el index.html y los recursos necesarios para optimizar SEO (el index.html posee muchas etiquetas "meta" para este fin).
 Dentro de "src" encontramos "assets" donde residen todos los recursos estáticos como ser lo archivos "sass" y sus archivos "css" resultantes procesados.
-En "src/components" se encunetran todos los componentes React para la aplicación.
+En "src/components" se encuentran todos los componentes React para la aplicación.
 En "src/utils" se ubican utilidades, entre ellas funciones para acceder a la API del servidor, un módulo para *cachear* información en el cliente y otro para mejorar el SEO.
 ###### Backend
 En la carpeta "bin" está el archivo para ejecutar el servidor.
-En "routes" está la única ruta utiliazada, en este caso la API en sí (donde están definidos los dos "endpoints": `/api/items?q=:query` y `/api/items/:id`).
+En "routes" está la única ruta utilizada, en este caso la API en sí (donde están definidos los dos "endpoints": `/api/items?q=:query` y `/api/items/:id`).
 En "utils" está definido el módulo que se encarga de generar los objetos JSONs para ser devueltos por los "endpoints" de la API.
 
 ## Consideraciones
-A continuación se mustra una lista de tareas realizadas, consideraciones en cuanto a los requerimientos del enunciado y actividades pendientes que mejorarían aún más el producto resultante (no fueron implementadas pero sí contempladas al momento de entrega):
+A continuación se muestra una lista de tareas realizadas, consideraciones en cuanto a los requerimientos del enunciado y actividades pendientes que mejorarían aún más el producto resultante (no fueron implementadas pero sí contempladas al momento de entrega):
 ### Aspectos generales
 * Se realizaron pruebas usando "Google Lighthouse Audit" para verificar performance, SEO, accesibilidad y buenas prácticas. Resultados adjuntos.
 * Se agregó "ubicación" y mención de "envío gratis" en vista "detalle de item".
@@ -77,7 +77,7 @@ A continuación se mustra una lista de tareas realizadas, consideraciones en cua
 * Uso de íconos png con variaciones para dispositivos con mayor DPI, así como íconos vectoriales .svg.
 * Uso de etiquetas "meta" para mejorar SEO.
 * Cambio dinámicamente de etiquetas "meta" y "title" para contribuir a SEO.
-* Uso de etiquetas y organización semática de contenido.
+* Uso de etiquetas y organización semántica de contenido.
 * Uso de atributos AIRA para mejorar la accesibilidad.
 * Mostrar componente "cargando" para informar al usuario.
 * Uso de Sass para definir estilos.
@@ -86,7 +86,7 @@ A continuación se mustra una lista de tareas realizadas, consideraciones en cua
 * Uso de etiquetas "meta" de OpenGraph.
 * Se hizo uso de recursos "extra" como ser íconos, imágenes, etc. Sus fuentes están en el archivo "about.txt" en  la carpeta "assets".
 * Uso de unidades "rem" en CSS para definir dimensiones.
-* Para mejorar aún más la accesibilidad se usó un color de leta más oscuro que el sugerido en las especificaciones (para conseguir más contraste).
+* Para mejorar aún más la accesibilidad se usó un color de letra más oscuro que el sugerido en las especificaciones (para conseguir más contraste).
 ###### Pendientes en frontend:
 * Hacer uso de componente propio "FloatingMessage" para mostrar alerta a usuarios de una forma más amigable.
 * Crear "templates mockups" o "templates HTML vacíos" de los componentes para así tener una respuesta visual muy rápida para el usuario, y llenar el template cuando los datos estén disponibles.
